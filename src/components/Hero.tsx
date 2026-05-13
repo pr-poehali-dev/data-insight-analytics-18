@@ -25,13 +25,17 @@ export default function Hero() {
         />
       </motion.div>
 
-      <div className="relative z-10 text-center text-white">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+      <div className="relative z-10 text-center text-white px-6">
+        <p className="text-xs md:text-sm uppercase tracking-widest mb-4 opacity-70">Цифровое пособие для подростков</p>
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 leading-none">
+          ОТКЛЮЧИСЬ.<br />ОЖИВИ.
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+        <p className="text-lg md:text-xl max-w-xl mx-auto opacity-90 leading-relaxed">
+          Первая платформа, которая помогает подросткам вернуть контроль над своей жизнью в эпоху гаджетов
         </p>
+        <button className="mt-10 border border-white text-white px-8 py-3 uppercase text-sm tracking-widest hover:bg-white hover:text-neutral-900 transition-all duration-300 cursor-pointer">
+          Начать путь
+        </button>
       </div>
     </div>
   );
